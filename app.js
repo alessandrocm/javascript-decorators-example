@@ -3,7 +3,7 @@
 import './bootstrap';
 import Class2 from './lib/class2';
 import Class1 from './lib/class1';
-import Class0 from './lib/class0';
+import Class0, {exampleFunc} from './lib/class0';
 
 const x = false;
 const y = new Class0();
@@ -19,3 +19,4 @@ console.log('b: ', JSON.stringify(b));
 console.log('b instance of Class2: ', b instanceof Class2);
 console.log('c: ', JSON.stringify(c));
 console.log('c instance of Class2: ', c instanceof Class2);
+exampleFunc();
